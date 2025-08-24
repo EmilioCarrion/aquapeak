@@ -2,7 +2,7 @@ import Script from "next/script";
 
 export default function RegisterForm() {
   return (
-    <>
+    <div className="max-w-md mx-auto">
       <iframe
         data-tally-src="https://tally.so/embed/wkoMdM?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
         width="100%"
@@ -18,6 +18,6 @@ export default function RegisterForm() {
           Tally.loadEmbeds();
         }}
       />
-    </>
+    </div>
   );
 }
