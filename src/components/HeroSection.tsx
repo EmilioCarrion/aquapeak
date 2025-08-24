@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-[url('/mountain-landscape-silhouette.png')] bg-cover bg-center opacity-20"></div>
       <div className="container mx-auto relative z-10">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-gradient font-montserrat leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-aquapeak-gradient font-montserrat leading-tight">
             La Botella que Conquista Montañas Contigo
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-muted-foreground max-w-2xl mx-auto">

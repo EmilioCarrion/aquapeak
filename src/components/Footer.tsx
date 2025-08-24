@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="py-12 px-4 bg-background border-t border-border">
       <div className="container mx-auto text-center">
-        <div className="text-2xl font-bold text-gradient mb-4 font-montserrat">
+        <div className="text-2xl font-bold text-aquapeak-gradient mb-4 font-montserrat">
           AquaPeak
         </div>
         <p className="text-muted-foreground mb-6">

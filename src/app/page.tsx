@@ -130,7 +130,7 @@ export default function AquaPeakLanding() {
   ];
 
   return (
-    <div className="min-h-screen bg-hero-gradient">
+    <div className="min-h-screen bg-aquapeak-hero">
       <Header />
       <HeroSection />
       <ProblemSolutionSection />

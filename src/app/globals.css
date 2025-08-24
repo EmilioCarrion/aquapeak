@@ -120,3 +120,19 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* New AquaPeak Gradients */
+.bg-aquapeak-hero {
+  background: linear-gradient(to bottom, #E0F2F7, #A7D9ED); /* Light, airy blue to soft sky blue */
+}
+
+.bg-aquapeak-mountain {
+  background: linear-gradient(to top, #0A2342, #2C5F8D); /* Deep midnight blue to rich ocean blue */
+}
+
+.text-aquapeak-gradient {
+  background-image: linear-gradient(to right, #00BFFF, #1E90FF); /* Deep Sky Blue to Dodger Blue */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function FinalCTASection() {
   return (
-    <section className="py-20 px-4 bg-mountain-gradient text-center">
+    <section className="py-20 px-4 bg-aquapeak-mountain text-center">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold mb-6 text-white font-montserrat">
           ¿Listo para tu Próxima Aventura?
