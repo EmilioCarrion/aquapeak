@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Shield, Droplets, Users } from "lucide-react";
+import Image from "next/image";
 
 export default function HeroSection() {
   return (
@@ -12,8 +13,8 @@ export default function HeroSection() {
             La Botella que Conquista Montañas Contigo
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-muted-foreground max-w-2xl mx-auto">
-            Hidratación confiable a cualquier altitud. Diseñada por
-            montañistas, para montañistas.
+            Hidratación confiable a cualquier altitud. Diseñada por montañistas,
+            para montañistas.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-8">
@@ -44,7 +45,7 @@ export default function HeroSection() {
           </div>
 
           <div className="relative max-w-md mx-auto">
-            <img
+            <Image
               src="/premium-water-bottle-mountain-design.png"
               alt="AquaPeak Bottle"
               className="w-full h-auto"

@@ -1,11 +1,4 @@
 import { Card, CardContent } from "@/components/ui/card";
-import {
-  Mountain,
-  Droplets,
-  Shield,
-  Feather,
-  Wrench,
-} from "lucide-react";
 
 interface Feature {
   icon: JSX.Element;
@@ -33,7 +26,7 @@ export default function FeaturesSection({ features }: FeaturesSectionProps) {
             >
               <CardContent className="p-6 text-center">
                 <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/30 transition-colors">
-                  <div className="text-primary">{feature.icon}</div>
+                  <div className="text-primary">Placeholder</div>
                 </div>
                 <h3 className="text-xl font-bold mb-2 font-montserrat">
                   {feature.title}

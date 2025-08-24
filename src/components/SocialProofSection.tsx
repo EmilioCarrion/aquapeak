@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
+import Image from "next/image";
 
 interface Testimonial {
   name: string;
@@ -13,7 +14,9 @@ interface SocialProofSectionProps {
   testimonials: Testimonial[];
 }
 
-export default function SocialProofSection({ testimonials }: SocialProofSectionProps) {
+export default function SocialProofSection({
+  testimonials,
+}: SocialProofSectionProps) {
   return (
     <section className="py-20 px-4 bg-card">
       <div className="container mx-auto">
@@ -29,7 +32,7 @@ export default function SocialProofSection({ testimonials }: SocialProofSectionP
             <Card key={index} className="bg-background border-border">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <img
+                  <Image
                     src={testimonial.image || "/placeholder.svg"}
                     alt={testimonial.name}
                     className="w-12 h-12 rounded-full mr-4"
@@ -43,14 +46,11 @@ export default function SocialProofSection({ testimonials }: SocialProofSectionP
                 </div>
                 <div className="flex mb-3">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star
-                      key={i}
-                      className="h-4 w-4 fill-accent text-accent"
-                    />
+                    <Star key={i} className="h-4 w-4 fill-accent text-accent" />
                   ))}
                 </div>
                 <p className="text-muted-foreground italic">
-                  "{testimonial.text}"
+                  &quot;{testimonial.text}&quot;
                 </p>
               </CardContent>
             </Card>
