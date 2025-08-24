@@ -32,11 +32,11 @@ export default function SocialProofSection({
             <Card key={index} className="bg-background border-border">
               <CardContent className="p-6">
                 <div className="flex items-center mb-4">
-                  <Image
+                  {/* <Image
                     src={testimonial.image || "/placeholder.svg"}
                     alt={testimonial.name}
                     className="w-12 h-12 rounded-full mr-4"
-                  />
+                  /> */}
                   <div>
                     <h4 className="font-semibold">{testimonial.name}</h4>
                     <p className="text-sm text-muted-foreground">

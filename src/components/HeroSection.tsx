@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Shield, Droplets, Users } from "lucide-react";
 import Image from "next/image";
+import RegisterForm from "@/components/RegisterForm";
 
 export default function HeroSection() {
   return (
@@ -33,24 +34,13 @@ export default function HeroSection() {
           </div>
 
           <div className="mb-12">
-            <Button
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground text-xl px-8 py-4 font-bold"
-            >
-              Consigue la Tuya - 25% OFF
-            </Button>
+            <RegisterForm />
             <p className="text-sm text-muted-foreground mt-2">
               Solo $89 $67 (Oferta limitada)
             </p>
           </div>
 
-          <div className="relative max-w-md mx-auto">
-            <Image
-              src="/premium-water-bottle-mountain-design.png"
-              alt="AquaPeak Bottle"
-              className="w-full h-auto"
-            />
-          </div>
+          <div className="relative max-w-md mx-auto"></div>
         </div>
       </div>
     </section>
